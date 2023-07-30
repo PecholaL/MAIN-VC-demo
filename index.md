@@ -105,7 +105,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.1 Voice conversion between unseen speakers.(One-shot scenario)</CAPTION>
+	<CAPTION>Table.1 Voice conversion between unseen speakers. (One-shot scenario)</CAPTION>
     <tr>
         <th>  </th>
 	<th> Source </th>
@@ -166,7 +166,10 @@ table {
 </table>
 
 ## Ablation Study
-Compare the proposed __MAIN-VC__ with (1)__model*__: proposed method without MI module, (2)__model**__: proposed method without siamese encoder.
+Compare  __MAIN-VC__ with: 
++ __model*__ the proposed method without MI module,
++ __model**__ the proposed method without siamese encoder.
+
 <table>
 	<CAPTION>Table.3 Ablation Study</CAPTION>
     <tr>
