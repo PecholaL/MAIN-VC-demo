@@ -105,7 +105,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.1 Voice conversion between unseen speakers. (One-shot scenario)</CAPTION>
+	<CAPTION>Table.2 Voice conversion between unseen speakers. (One-shot scenario)</CAPTION>
     <tr>
         <th>  </th>
 	<th> Source </th>
