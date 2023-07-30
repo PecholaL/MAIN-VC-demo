@@ -12,13 +12,10 @@ demo: MAIN-VC
 
 ![Model Architecture ](assets/image/fig1.jpg)
 <p align="center">Figure.1 The architecture of MAIN-VC.</p>
-
+<p>&nbsp;</p> 
 
 ## Samples
 Audio samples are taken from the VCTK data set [1].
-
-
-<p>&nbsp;</p> 
 
 <script>
 function pauseOthers(ele) {
@@ -102,9 +99,7 @@ table {
     </tr>	
 </table>
 
-
 <p>&nbsp;</p> 
-
 
 <table>
 	<CAPTION>Table.2 Voice conversion between unseen speakers. (One-shot scenario)</CAPTION>
@@ -166,6 +161,7 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/30/5.mp3" type="audio/mpeg"></audio> </th>
     </tr>	
 </table>
+<p>&nbsp;</p> 
 
 ## Ablation Study
 Compare  __MAIN-VC__ with: 
