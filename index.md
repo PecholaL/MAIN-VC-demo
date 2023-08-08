@@ -2,7 +2,7 @@
 
 ## Abstract
 <p align="justify">
-Voice conversion (VC) aims to change the timbre of the source speech to match that of the target speaker based on a target speech sample. Recently, disentangle-based voice conversion has gained significant research. Content and speaker information are separated from the speech, and after the replacing the speaker information, synthesis is performed to achieve voice conversion. One-shot voice conversion still remains a challenge for target speaker cannot be seen during training. We proposed a new voice conversion model __MAIN-VC__, based on adaptive instance normalization, mutual information is leveraged to prevent information leakage during decoupling. In addition, a siamese encoder is built to ensure accurate information extraction to assist better participation of mutual information in disentanglement process.
+Voice conversion (VC) aims to change the timbre of the source speech to match that of the target speaker based on a target speech sample. Recently, disentangle-based voice conversion has gained significant research. Content and speaker information are separated from the speech, and after the replacing the speaker information, synthesis is performed to achieve voice conversion. One-shot voice conversion still remains a challenge for target speaker cannot be seen during training. We proposed a new voice conversion model MAIN-VC, based on adaptive instance normalization, mutual information is leveraged to prevent information leakage during decoupling. In addition, a siamese encoder is built to ensure accurate information extraction to assist better participation of mutual information in disentanglement process.
 </p>
 
 ## Overview
@@ -11,7 +11,7 @@ Voice conversion (VC) aims to change the timbre of the source speech to match th
 </p>
 
 ![Model Architecture ](assets/mainvc.png)
-<p align="center">Figure.1 The architecture of MAIN-VC.</p>
+<p align="center">Figure.1 The Architecture of MAIN-VC</p>
 <p>&nbsp;</p> 
 
 ## Samples
@@ -83,7 +83,7 @@ table {
 <p>&nbsp;</p> 
 
 <table>
-	<CAPTION>Table.2 One-shot Voice conversion (unseen speakers)</CAPTION>
+	<CAPTION>Table.2 One-shot Voice Conversion (unseen speakers)</CAPTION>
     <tr>
         <th>  </th>
 	<th> Source </th>
