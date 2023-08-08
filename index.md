@@ -162,8 +162,8 @@ table {
 
 ## Ablation Study
 Compare  __MAIN-VC__ with: 
-+ __model*__ the proposed method _without_ MI module,
-+ __model**__ the proposed method _without_ siamese encoder.
++ _w/o MI_ the proposed method __without__ MI module,
++ _w/o SE_ the proposed method __without__ siamese encoder.
 
 <table>
 	<CAPTION>Table.3 Ablation Study</CAPTION>
@@ -171,8 +171,8 @@ Compare  __MAIN-VC__ with:
 	<th> Source </th>
         <th> Target </th>
 	<th> MAIN-VC </th>
-	<th> model* </th>
-	<th> model** </th>
+	<th> w/o MI </th>
+	<th> w/o SE </th>
 </tr>
 <tr>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/u2u_raw/p225_001.mp3" type="audio/mpeg"></audio> </th>
