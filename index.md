@@ -2,7 +2,7 @@
 
 ## Abstract
 <p align="justify">
-Voice conversion (VC) aims to change the timbre of the source speech to match that of the target speaker based on a target speech sample. Recently, disentangle-based voice conversion has gained significant research. Content and speaker information are separated from the speech, and after the replacing the speaker information, synthesis is performed to achieve voice conversion. One-shot voice conversion still remains a challenge for target speaker cannot be seen during training. We proposed a new voice conversion model based on adaptive instance normalization, mutual information is leveraged to prevent information leakage during decoupling. In addition, a siamese encoder is built to ensure accurate information extraction to assist better participation of mutual information in disentanglement process.
+Voice conversion (VC) aims to change the timbre of the source speech to match that of the target speaker based on a target speech sample. Recently, disentangle-based voice conversion has gained significant research. Content and speaker information are separated from the speech, and after the replacing the speaker information, synthesis is performed to achieve voice conversion. One-shot voice conversion still remains a challenge for target speaker cannot be seen during training. We proposed a new voice conversion model __MAIN-VC__, based on adaptive instance normalization, mutual information is leveraged to prevent information leakage during decoupling. In addition, a siamese encoder is built to ensure accurate information extraction to assist better participation of mutual information in disentanglement process.
 </p>
 
 ## Overview
@@ -15,7 +15,7 @@ Voice conversion (VC) aims to change the timbre of the source speech to match th
 <p>&nbsp;</p> 
 
 ## Samples
-Audio samples are taken from the VCTK data set [1].
+Audio samples are taken from the VCTK dataset and AISHELL dataset.
 
 <script>
 function pauseOthers(ele) {
