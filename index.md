@@ -127,7 +127,7 @@ table {
 <p>&nbsp;</p> 
 
 <table>
-	<CAPTION>Table.3 Cross-language One-shot Voice Conversion (Chinese-to-English)</CAPTION>
+	<CAPTION>Table.3 Cross-language One-shot Voice Conversion (Chinese-to-English, One-shot)</CAPTION>
     <tr>
 	<th> Source </th>
         <th> Target </th>
