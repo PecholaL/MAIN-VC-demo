@@ -142,13 +142,6 @@ table {
 </tr>
 	
 <tr>
-	<th> C2E M2M </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/IC0002W0002.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/p360_001.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/xlang/IC0002W0002_p360_001.mp3" type="audio/mpeg"></audio> </th>
-</tr>
-
-<tr>
 	<th> C2E M2F </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/IC0010W0010.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/p244_001.mp3" type="audio/mpeg"></audio> </th>
@@ -160,6 +153,13 @@ table {
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/IC0001W0001.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/p316_001.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/xlang/IC0001W0001_p316_001.mp3" type="audio/mpeg"></audio> </th>
+</tr>
+
+<tr>
+	<th> C2E M2M </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/IC0002W0002.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/xlang_raw/p360_001.mp3" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/xlang/IC0002W0002_p360_001.mp3" type="audio/mpeg"></audio> </th>
 </tr>
 </table>
 
