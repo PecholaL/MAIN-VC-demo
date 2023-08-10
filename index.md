@@ -162,8 +162,8 @@ table {
 
 ## Ablation Study
 Compare  __MAIN-VC__ with: 
-+ _w/o MI_ the proposed method __without__ MI module,
-+ _w/o SE_ the proposed method __without__ siamese encoder.
++ _w/o MI_: the proposed method __without__ MI module,
++ _w/o SE_: the proposed method __without__ siamese encoder.
 
 <table>
 	<CAPTION>Table.3 Ablation Study</CAPTION>
