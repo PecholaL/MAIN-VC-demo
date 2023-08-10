@@ -10,7 +10,7 @@ Voice conversion (VC) aims to change the timbre of the source speech to match th
 
 </p>
 
-![Model Architecture ](assets/mainvc.png)
+![Model Architecture ](assets/mainvc_frame.png)
 <p align="center">Figure.1 The Architecture of MAIN-VC</p>
 <p>&nbsp;</p> 
 
