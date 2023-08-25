@@ -167,7 +167,7 @@ table {
 
 ## Ablation Study
 Compare  __MAIN-VC__ with: 
-+ _w/o MI_: the proposed method __without__ MI module,
++ _w/o CMI_: the proposed method __without__ CMI module,
 + _w/o SE_: the proposed method __without__ siamese encoder.
 
 <table>
