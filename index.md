@@ -2,7 +2,7 @@
 
 ## Abstract
 <p align="justify">
-Voice conversion (VC) aims to change the timbre of the source speech to match that of the target speaker based on a target speech sample. Recently, disentangle-based voice conversion has gained significant research. Content and speaker information are separated from the speech, and after the replacing the speaker information, synthesis is performed to achieve voice conversion. One-shot voice conversion still remains a challenge for target speaker cannot be seen during training. We proposed a new voice conversion model MAIN-VC, based on adaptive instance normalization, mutual information is leveraged to prevent information leakage during decoupling. In addition, a siamese encoder is built to ensure accurate information extraction to assist better participation of mutual information in disentanglement process.
+One-shot voice conversion aims to change the timbre of any source speech to match that of the unseen target speaker with only one speech sample. Disentanglement-based method separates content and speaker information from the speech, and after replacing the speaker information, synthesis is performed to achieve voice conversion. Existing methods face difficulty in accurately measuring and utilizing the correlations between speech representations for thorough disentanglement, and suffer sizable networks. In this paper, we propose a method to overcome these obstacles. Our model learns clean speech representations through siamese encoders and the designed mutual information estimator. Experiments show that the proposed extremely lightweight model outperforms baseline and other previous methods in both subjective and objective metrics in one-shot voice conversion scenario.
 </p>
 
 ## Overview
