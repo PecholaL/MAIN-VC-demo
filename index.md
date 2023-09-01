@@ -175,7 +175,7 @@ Compare  __MAIN-VC__ with:
 <tr>
 	<th> Source </th>
         <th> Target </th>
-	<th> w/o MI </th>
+	<th> w/o CMI </th>
 	<th> w/o SE </th>
 	<th> MAIN-VC </th>
 </tr>
