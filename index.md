@@ -16,7 +16,7 @@ One-shot voice conversion aims to change the timbre of any source speech to matc
 <p align="center">Figure.1 The Architecture of MAIN-VC</p>
 <p>&nbsp;</p> 
 
-## Samples
+## Audio Samples Compare with Baseline Method
 Audio samples are taken from the VCTK dataset and AISHELL dataset.
 
 <script>
@@ -167,6 +167,24 @@ table {
 
 <p>&nbsp;</p> 
 
+
+## Mel-Spectrogram Samples in One-shot VC
+
+<div style="text-align: center;">
+<img src="assets/mel007.png" width = 600 />
+</div>
+<p align="center">Figure.2 VC task "*The rainbow is a division of white light into many beautiful colors.*"</p>
+
+<img src="assets/mel010.png" width = 600 />
+</div>
+<p align="center">Figure.3 VC task "*People look, but no one finds it.*"</p>
+
+<img src="assets/mel013.png" width = 600 />
+</div>
+<p align="center">Figure.4 VC task "*Some have accepted it as a miracle without physical explanation.*"</p>
+
+<p>&nbsp;</p> 
+
 ## Ablation Study
 Compare  __MAIN-VC__ with: 
 + _w/o CMI_: the proposed method __without__ CMI module,
@@ -213,6 +231,8 @@ Compare  __MAIN-VC__ with:
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/u2u/M2Fp345_058_p268_062.mp3" type="audio/mpeg"></audio> </th>
 </tr>	
 </table>
+
+
 
 <p>&nbsp;</p> 
 
