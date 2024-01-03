@@ -171,15 +171,15 @@ table {
 ## Mel-Spectrogram Samples in One-shot VC
 
 <div style="text-align: center;">
-<img src="assets/mel007.png" width = 600 />
+<img src="assets/mel/mel007.png" width = 600 />
 </div>
 <p align="center">Figure.2 VC task "*The rainbow is a division of white light into many beautiful colors.*"</p>
 
-<img src="assets/mel010.png" width = 600 />
+<img src="assets/mel/mel010.png" width = 600 />
 </div>
 <p align="center">Figure.3 VC task "*People look, but no one finds it.*"</p>
 
-<img src="assets/mel013.png" width = 600 />
+<img src="assets/mel/mel013.png" width = 600 />
 </div>
 <p align="center">Figure.4 VC task "*Some have accepted it as a miracle without physical explanation.*"</p>
 
