@@ -2,7 +2,7 @@
 
 ## Abstract
 <p align="justify">
-One-shot voice conversion aims to change the timbre of any source speech to match that of the unseen target speaker with only one speech sample. Disentanglement-based method separates content and speaker information from the speech, and after replacing the speaker information, synthesis is performed to achieve voice conversion. Our voice converison model learns clean speech representations through siamese encoders and the designed mutual information estimator. The experimental results show that MAIN-VC achieves comparable subjective scores and exhibits improvements in objective metrics compared to existing methods in one-shot voice conversion scenario.
+One-shot voice conversion aims to change the timbre of any source speech to match that of the unseen target speaker with only one speech sample. Existing methods face difficulty in satisfactory speech representation disentanglement and suffer from sizable networks. We propose a method to effectively disentangle with a concise neural network. Our model learns clean speech representations via siamese encoders with the enhancement of the designed mutual information estimator. The siamese structure and the newly designed convolution module contribute to the lightweight of our model while ensuring the performance in diverse voice conversion tasks.
 </p>
 
 ## Overview
