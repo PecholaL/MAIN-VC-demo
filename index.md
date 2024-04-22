@@ -11,7 +11,7 @@ One-shot voice conversion aims to change the timbre of any source speech to matc
 </p>
 
 <div style="text-align: center;">
-<img src="assets/mainvc_frame_v6.png" width = 1000 />
+<img src="assets/mainvc_frame_v8.png" width = 1000 />
 </div>
 <p align="center">Figure.1 The Architecture of MAIN-VC</p>
 <p>&nbsp;</p> 
